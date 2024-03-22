@@ -33,11 +33,11 @@ st.dataframe(df, use_container_width = True)
 st.sidebar.image('heart-health.png', 'Welcome Dear User')
 
 Age = st.sidebar.number_input('Age')
-Sleep_Duration = st.sidebar.number_input('Sleep Duration')
+Sleep_Duration = st.sidebar.number_input('Sleep Duration (Hours)')
 Systolic = st.sidebar.number_input('Systolic')
 Daily_Steps = st.sidebar.number_input('Daily Steps')
 Heart_Rate = st.sidebar.number_input('Heart Rate')
-QoS = st.sidebar.number_input('Quality of Sleep')
+QoS = st.sidebar.number_input('Quality of Sleep (Hours)')
 PaL= st.sidebar.number_input('Physical Activity Level')
 Diastolic= st.sidebar.number_input('Diastolic')
 

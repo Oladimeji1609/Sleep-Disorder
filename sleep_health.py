@@ -12,7 +12,7 @@ df.drop('Person ID', axis=1, inplace = True)
 
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image('osborne.png')
+    st.image('Osborne-Logo-RGB.png')
 
 st.markdown("<br>", unsafe_allow_html= True)
 

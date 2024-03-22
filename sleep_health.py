@@ -33,7 +33,7 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)
 
 
-st.sidebar.image('heart-health.png', 'Welcome Dear User')
+st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
 
 Age = st.sidebar.number_input('Age')
 Sleep_Duration = st.sidebar.number_input('Sleep Duration (Hours)')

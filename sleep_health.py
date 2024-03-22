@@ -10,6 +10,12 @@ model = joblib.load('Sleep_Health_model.pkl')
 encoder = joblib.load('Sleep_Health_encoder.pkl')
 df.drop('Person ID', axis=1, inplace = True)
 
+
+st.markdown(
+        f'<div style="display: flex; justify-content: center;"><img src="{osborne.png}" style="width: 50%; height: auto;"></div>',
+        unsafe_allow_html=True
+    )
+
 st.image('osborne.png')
 st.markdown("<br>", unsafe_allow_html= True)
 
@@ -17,6 +23,7 @@ st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h1 style = 'color: #0C2D57; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
+
 
 st.image('doctors.png')
 st.markdown("<br>", unsafe_allow_html= True)

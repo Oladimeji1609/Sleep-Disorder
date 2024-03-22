@@ -65,9 +65,12 @@ inputs['Diastolic'] = [Diastolic]
 st.dataframe(inputs, use_container_width= True)
 
 
-
+st.markdown("<br>",unsafe_allow_html = True)
 
 prediction_button = st.button('Predict sleep disorder')
+
+st.markdown("<br>",unsafe_allow_html = True)
+
 if prediction_button:
     predicted = model.predict(inputs)
 

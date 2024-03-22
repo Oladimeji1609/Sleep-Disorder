@@ -10,6 +10,10 @@ model = joblib.load('Sleep_Health_model.pkl')
 encoder = joblib.load('Sleep_Health_encoder.pkl')
 df.drop('Person ID', axis=1, inplace = True)
 
+st.image('osborne.png')
+st.markdown("<br>", unsafe_allow_html= True)
+
+
 st.markdown("<h1 style = 'color: #0C2D57; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
@@ -17,7 +21,7 @@ st.markdown("<br>", unsafe_allow_html= True)
 st.image('doctors.png')
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h4 style = 'margin: -30px; color: green; text-align: center; font-family: helvetica '>Project Overview</h4>", unsafe_allow_html = True)   
-st.write("This project aims to develop a predictive model that assesses the health reults of patients. By leveraging machine learning techniques, we aim to provide insights into the factors influencing a startup's financial success, empowering stakeholders to make informed decisions")
+st.write("Join us on a journey into the world of sleep disorders. From insomnia to sleep apnea, we explore the causes, symptoms, and treatments of these conditions. Our project aims to raise awareness, provide resources, and offer support for those affected by sleep disorders, helping them on their path to better sleep and overall health.")
 
 
 st.markdown("<br>",unsafe_allow_html = True)

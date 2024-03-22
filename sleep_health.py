@@ -38,7 +38,7 @@ Systolic = st.sidebar.number_input('Systolic')
 Daily_Steps = st.sidebar.number_input('Daily Steps')
 Heart_Rate = st.sidebar.number_input('Heart Rate')
 QoS = st.sidebar.number_input('Quality of Sleep (Hours)')
-PaL= st.sidebar.number_input('Physical Activity Level')
+PaL= st.sidebar.number_input('Physical Activity Level (Max 100)')
 Diastolic= st.sidebar.number_input('Diastolic')
 
 st.markdown("<br>",unsafe_allow_html = True)

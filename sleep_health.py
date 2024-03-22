@@ -16,8 +16,9 @@ with cent_co:
 
 st.markdown("<br>", unsafe_allow_html= True)
 #0C2D57
-
-st.markdown("<h1 style = 'color: #f0f2f6; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
+#f63366	
+#f0f2f6
+st.markdown("<h1 style = 'color: #f63366; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
 

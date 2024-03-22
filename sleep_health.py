@@ -75,11 +75,11 @@ if prediction_button:
     predicted = model.predict(inputs)
 
     if predicted[0]==0:
-        st.success(f'Your predicted Sleep Disorder is; Insomnia')
+        st.success(f'Your predicted Sleep Disorder is;  Insomnia')
     elif predicted[0]==1:
-        st.success(f'Your predicted Sleep Disorder is; None')
+        st.success(f'Your predicted Sleep Disorder is;  None')
     else:
-        st.success(f'Your predicted Sleep Disorder is; Sleep Apnea')
+        st.success(f'Your predicted Sleep Disorder is;  Sleep Apnea')
 
 # 0 = 'Insomnia'
 # 1 = 'None'

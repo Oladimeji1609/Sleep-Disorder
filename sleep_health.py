@@ -11,11 +11,6 @@ encoder = joblib.load('Sleep_Health_encoder.pkl')
 df.drop('Person ID', axis=1, inplace = True)
 
 
-st.markdown(
-        f'<div style="display: flex; justify-content: center;"><img src="{osborne.png}" style="width: 50%; height: auto;"></div>',
-        unsafe_allow_html=True
-    )
-
 st.image('osborne.png')
 st.markdown("<br>", unsafe_allow_html= True)
 

@@ -24,21 +24,17 @@ st.markdown("<br>", unsafe_allow_html= True)
 
 
 st.image('doctors.png')
-
-
     
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '>Project Overview</h4>", unsafe_allow_html = True)   
 st.write("Join us on a journey into the world of sleep disorders. From insomnia to sleep apnea, we explore the causes, symptoms, and treatments of these conditions. Our project aims to raise awareness, provide resources, and offer support for those affected by sleep disorders, helping them on their path to better sleep and overall health.")
 
-with last_co:
-    st.image('Osborne-Logo-RGB.png')
-
 st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)
 
 
-st.image('heart-health.png', 'Welcome Dear Patient')
+st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
+Age = st.sidebar.number_input('Age')
 
 col1,col2,col3 = st.columns(3)
 

@@ -10,9 +10,9 @@ model = joblib.load('Sleep_Health_model.pkl')
 encoder = joblib.load('Sleep_Health_encoder.pkl')
 df.drop('Person ID', axis=1, inplace = True)
 
-left_co, cent_co,last_co = st.columns(3)
-with cent_co:
-    st.image('Osborne-Logo-RGB.png')
+# left_co, cent_co,last_co = st.columns(3)
+# with cent_co:
+#     st.image('Osborne-Logo-RGB.png')
 
 # with left_co:
 #     st.image('Osborne-Logo-RGB.png')
@@ -33,8 +33,8 @@ st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '>Project Overview</h4>", unsafe_allow_html = True)   
 st.write("Join us on a journey into the world of sleep disorders. From insomnia to sleep apnea, we explore the causes, symptoms, and treatments of these conditions. Our project aims to raise awareness, provide resources, and offer support for those affected by sleep disorders, helping them on their path to better sleep and overall health.")
 
-with last_co:
-    st.image('Osborne-Logo-RGB.png')
+# with last_co:
+#     st.image('Osborne-Logo-RGB.png')
 
 st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)

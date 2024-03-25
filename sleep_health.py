@@ -57,18 +57,18 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 
-st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '> Input Variable </h4>", unsafe_allow_html = True)   
+# st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '> Input Variable </h4>", unsafe_allow_html = True)   
 
-inputs = pd.DataFrame()
+# inputs = pd.DataFrame()
 
-inputs['Age'] = [Age]
-inputs['Sleep Duration'] = [Sleep_Duration]
-inputs['Systolic'] = [Systolic]
-inputs['Daily Steps'] = [Daily_Steps]
-inputs['Heart Rate'] = [Heart_Rate]
-inputs['Quality of Sleep'] = [QoS]
-inputs['Physical Activity Level'] = [PaL]
-inputs['Diastolic'] = [Diastolic]
+# inputs['Age'] = [Age]
+# inputs['Sleep Duration'] = [Sleep_Duration]
+# inputs['Systolic'] = [Systolic]
+# inputs['Daily Steps'] = [Daily_Steps]
+# inputs['Heart Rate'] = [Heart_Rate]
+# inputs['Quality of Sleep'] = [QoS]
+# inputs['Physical Activity Level'] = [PaL]
+# inputs['Diastolic'] = [Diastolic]
 
 
 st.dataframe(inputs, use_container_width= True)

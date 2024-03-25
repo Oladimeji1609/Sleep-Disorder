@@ -33,10 +33,10 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)
 
 
-st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
-Age = st.sidebar.number_input('Age')
+# st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
+# Age = st.sidebar.number_input('Age')
 
-col1,col2= st.columns(2)
+col1,col2, col3= st.columns(3)
 
 with col1:
     Age = col1.number_input('Age')

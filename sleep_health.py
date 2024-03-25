@@ -35,19 +35,20 @@ st.dataframe(df, use_container_width = True)
 
 #st.image('heart-health.png', 'Welcome Dear Patient')
 
-with left_co:
-    Age = st.left_co.number_input('Age')
-    Sleep_Duration = st.left_co.number_input('Sleep Duration (Hours)')
-    Systolic = st.left_co.number_input('Systolic')
-    Daily_Steps = st.left_co.number_input('Daily Steps')
+col1,col2,col3 = st.columns(3)
+with col1:
+    Age = st.col1.number_input('Age')
+    Sleep_Duration = st.col1.number_input('Sleep Duration (Hours)')
+    Systolic = st.col1.number_input('Systolic')
+    Daily_Steps = st.col1.number_input('Daily Steps')
 
-with cent_co:
-    Heart_Rate = st.cent_co.number_input('Heart Rate')
-    QoS = st.cent_co.number_input('Quality of Sleep (Hours)')
-    PaL= st.cent_co.number_input('Physical Activity Level (Max 100)')
-    Diastolic= st.cent_co.number_input('Diastolic')
+with col2:
+    Heart_Rate = st.col2.number_input('Heart Rate')
+    QoS = st.col2.number_input('Quality of Sleep (Hours)')
+    PaL= st.col2.number_input('Physical Activity Level (Max 100)')
+    Diastolic= st.col2.number_input('Diastolic')
 
-with last_co:
+with col3:
     st.image('heart-health.png', 'Welcome Dear Patient')
 
 st.markdown("<br>",unsafe_allow_html = True)

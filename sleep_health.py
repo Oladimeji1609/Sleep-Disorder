@@ -23,7 +23,8 @@ st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h1 style = 'color: #f0f2f6; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
-
+with left_co:
+    st.image('Osborne-Logo-RGB.png')
 
 st.image('doctors.png')
 st.markdown("<br>", unsafe_allow_html= True)

@@ -38,8 +38,8 @@ Age = st.sidebar.number_input('Age')
 
 col1,col2,col3 = st.columns(3)
 
-with col1:
-    Age = st.col1.number_input('Age')
+# with col1:
+#     Age = st.col1.number_input('Age')
     # Sleep_Duration = st.col1.number_input('Sleep Duration (Hours)')
     # Systolic = st.col1.number_input('Systolic')
     # Daily_Steps = st.col1.number_input('Daily Steps')

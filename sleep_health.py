@@ -36,7 +36,7 @@ st.dataframe(df, use_container_width = True)
 st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
 Age = st.sidebar.number_input('Age')
 
-col1,col2,col3 = st.columns(3)
+col1,col2= st.columns(2)
 
 # with col1:
     # Age = st.col1.number_input('Age')
@@ -50,7 +50,7 @@ col1,col2,col3 = st.columns(3)
 #     PaL= st.col2.number_input('Physical Activity Level (Max 100)')
 #     Diastolic= st.col2.number_input('Diastolic')
 
-with col3:
+with col2:
     st.image('heart-health.png', 'Welcome Dear Patient')
 
 st.markdown("<br>",unsafe_allow_html = True)

@@ -45,7 +45,7 @@ with col2:
     Diastolic= col2.number_input('Diastolic')
 
 with col3:
-    st.image('heart-health.png')
+    st.image('heart-health.png', width = 100)
 
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)

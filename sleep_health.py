@@ -33,7 +33,7 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)
 
 
-st.image('heart-health.png', 'Welcome Dear Patient')
+#st.image('heart-health.png', 'Welcome Dear Patient')
 
 with left_co:
     Age = st.left_co.number_input('Age')

@@ -40,10 +40,10 @@ with col2:
     Systolic = col2.number_input('Systolic',50,300)
     Daily_Steps = col2.number_input('Daily Steps', 0)
 with col2:
-    Heart_Rate = col3.number_input('Heart Rate')
-    QoS = col3.number_input('Quality of Sleep (Hours)')
-    PaL= col3.number_input('Physical Activity Level (Max 100)')
-    Diastolic= col3.number_input('Diastolic')
+    Heart_Rate = col3.number_input('Heart Rate', 50,200)
+    QoS = col3.number_input('Quality of Sleep (Hours)', 0)
+    PaL= col3.number_input('Physical Activity Level (Max 100)',0,100)
+    Diastolic= col3.number_input('Diastolic',50,300)
 
 
 st.markdown("<br>",unsafe_allow_html = True)

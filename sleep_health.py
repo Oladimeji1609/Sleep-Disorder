@@ -15,13 +15,10 @@ with cent_co:
     st.image('Osborne-Logo-RGB.png')
 
 st.markdown("<br>", unsafe_allow_html= True)
-#0C2D57
-#f63366	
-#f0f2f6
+
 st.markdown("<h1 style = 'color: #f0f2f6; text-align: center; font-family: helvetica'>Osborne Health Care</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
-
 
 st.image('doctors.png')
     
@@ -33,9 +30,6 @@ st.markdown("<br>",unsafe_allow_html = True)
 st.dataframe(df, use_container_width = True)
 
 
-# st.sidebar.image('heart-health.png', 'Welcome Dear Patient')
-# Age = st.sidebar.number_input('Age')
-
 col1,col2, col3= st.columns(3)
 
 with col1:
@@ -44,34 +38,34 @@ with col1:
     Systolic = col1.number_input('Systolic')
     Daily_Steps = col1.number_input('Daily Steps')
 
-# with col2:
-#     Heart_Rate = st.col2.number_input('Heart Rate')
-#     QoS = st.col2.number_input('Quality of Sleep (Hours)')
-#     PaL= st.col2.number_input('Physical Activity Level (Max 100)')
-#     Diastolic= st.col2.number_input('Diastolic')
-
 with col2:
-    st.image('heart-health.png', 'Welcome Dear Patient')
+    Heart_Rate = col2.number_input('Heart Rate')
+    QoS = col2.number_input('Quality of Sleep (Hours)')
+    PaL= col2.number_input('Physical Activity Level (Max 100)')
+    Diastolic= col2.number_input('Diastolic')
+
+with col3:
+    st.image('heart-health.png', 'Welcome Dear Patient',use_container_width= False)
 
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)
 
-# st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '> Input Variable </h4>", unsafe_allow_html = True)   
+st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '> Input Variable </h4>", unsafe_allow_html = True)   
 
-# inputs = pd.DataFrame()
+inputs = pd.DataFrame()
 
-# inputs['Age'] = [Age]
-# inputs['Sleep Duration'] = [Sleep_Duration]
-# inputs['Systolic'] = [Systolic]
-# inputs['Daily Steps'] = [Daily_Steps]
-# inputs['Heart Rate'] = [Heart_Rate]
-# inputs['Quality of Sleep'] = [QoS]
-# inputs['Physical Activity Level'] = [PaL]
-# inputs['Diastolic'] = [Diastolic]
+inputs['Age'] = [Age]
+inputs['Sleep Duration'] = [Sleep_Duration]
+inputs['Systolic'] = [Systolic]
+inputs['Daily Steps'] = [Daily_Steps]
+inputs['Heart Rate'] = [Heart_Rate]
+inputs['Quality of Sleep'] = [QoS]
+inputs['Physical Activity Level'] = [PaL]
+inputs['Diastolic'] = [Diastolic]
 
 
-# st.dataframe(inputs, use_container_width= True)
+st.dataframe(inputs, use_container_width= True)
 
 
 st.markdown("<br>",unsafe_allow_html = True)

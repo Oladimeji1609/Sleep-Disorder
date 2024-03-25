@@ -20,7 +20,7 @@ st.markdown("<h1 style = 'color: #f0f2f6; text-align: center; font-family: helve
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
 
-st.image('doctors.png')
+st.image('doctors.png', width = 1000)
     
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '>Project Overview</h4>", unsafe_allow_html = True)   

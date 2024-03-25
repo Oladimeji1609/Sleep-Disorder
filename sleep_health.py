@@ -71,7 +71,7 @@ st.markdown("<br>",unsafe_allow_html = True)
 # inputs['Diastolic'] = [Diastolic]
 
 
-st.dataframe(inputs, use_container_width= True)
+# st.dataframe(inputs, use_container_width= True)
 
 
 st.markdown("<br>",unsafe_allow_html = True)

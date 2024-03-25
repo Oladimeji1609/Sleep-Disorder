@@ -36,9 +36,9 @@ with col1:
     st.image('heart-health.png','Welcome dear patients')
 with col2:
     Age = col2.number_input('Age', 18,100)
-    Sleep_Duration = col2.number_input('Sleep Duration (Hours)')
-    Systolic = col2.number_input('Systolic')
-    Daily_Steps = col2.number_input('Daily Steps')
+    Sleep_Duration = col2.number_input('Sleep Duration (Hours)',0)
+    Systolic = col2.number_input('Systolic',50,300)
+    Daily_Steps = col2.number_input('Daily Steps', 0)
 with col2:
     Heart_Rate = col3.number_input('Heart Rate')
     QoS = col3.number_input('Quality of Sleep (Hours)')

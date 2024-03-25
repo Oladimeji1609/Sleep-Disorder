@@ -14,6 +14,8 @@ left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image('Osborne-Logo-RGB.png')
 
+with left_co:
+    st.image('Osborne-Logo-RGB.png')
 st.markdown("<br>", unsafe_allow_html= True)
 #0C2D57
 #f63366	
@@ -37,7 +39,7 @@ st.dataframe(df, use_container_width = True)
 
 col1,col2,col3 = st.columns(3)
 with col1:
-    Age = st.col1.number_input('Age',18,100)
+    Age = st.col1.number_input('Age')
     Sleep_Duration = st.col1.number_input('Sleep Duration (Hours)')
     Systolic = st.col1.number_input('Systolic')
     Daily_Steps = st.col1.number_input('Daily Steps')

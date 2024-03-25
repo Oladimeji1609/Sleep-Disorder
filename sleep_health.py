@@ -10,9 +10,9 @@ model = joblib.load('Sleep_Health_model.pkl')
 encoder = joblib.load('Sleep_Health_encoder.pkl')
 df.drop('Person ID', axis=1, inplace = True)
 
-# left_co, cent_co,last_co = st.columns(3)
-# with cent_co:
-#     st.image('Osborne-Logo-RGB.png')
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
+    st.image('Osborne-Logo-RGB.png')
 
 st.markdown("<br>", unsafe_allow_html= True)
 #0C2D57

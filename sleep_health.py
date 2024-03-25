@@ -4,6 +4,12 @@ warnings.filterwarnings('ignore')
 import streamlit as st
 import joblib 
 
+[theme]
+primaryColor="#FF4B4B"
+backgroundColor="#05131B"
+secondaryBackgroundColor="#082330"
+textColor="#FAFAFA"
+font="sans serif"
 
 df = pd.read_csv('Sleep_health_and_lifestyle_dataset.csv')
 model = joblib.load('Sleep_Health_model.pkl')

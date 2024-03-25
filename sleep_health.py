@@ -54,7 +54,7 @@ col1,col2,col3 = st.columns(3)
 #     PaL= st.col2.number_input('Physical Activity Level (Max 100)')
 #     Diastolic= st.col2.number_input('Diastolic')
 
-with col3:
+with last_co:
     st.image('heart-health.png', 'Welcome Dear Patient')
 
 st.markdown("<br>",unsafe_allow_html = True)

@@ -34,18 +34,16 @@ col1,col2, col3= st.columns(3)
 
 with col1:
     st.image('heart-health.png', width = 350)
-
+with col2:
+    Age = col1.number_input('Age', 18,100)
+    Sleep_Duration = col1.number_input('Sleep Duration (Hours)')
+    Systolic = col1.number_input('Systolic')
+    Daily_Steps = col1.number_input('Daily Steps')
 with col2:
     Heart_Rate = col2.number_input('Heart Rate')
     QoS = col2.number_input('Quality of Sleep (Hours)')
     PaL= col2.number_input('Physical Activity Level (Max 100)')
     Diastolic= col2.number_input('Diastolic')
-
-with col3:
-    Age = col1.number_input('Age', 18,100)
-    Sleep_Duration = col1.number_input('Sleep Duration (Hours)')
-    Systolic = col1.number_input('Systolic')
-    Daily_Steps = col1.number_input('Daily Steps')
 
 
 st.markdown("<br>",unsafe_allow_html = True)

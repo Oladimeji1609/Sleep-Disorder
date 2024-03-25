@@ -20,7 +20,7 @@ st.markdown("<h1 style = 'color: #f0f2f6; text-align: center; font-family: helve
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '> Sleep Disorder Specialist </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
 
-st.image('doctors.png', width = 1000)
+st.image('doctors.png')
     
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: helvetica '>Project Overview</h4>", unsafe_allow_html = True)   
@@ -33,10 +33,7 @@ st.dataframe(df, use_container_width = True)
 col1,col2, col3= st.columns(3)
 
 with col1:
-    Age = col1.number_input('Age', 18,100)
-    Sleep_Duration = col1.number_input('Sleep Duration (Hours)')
-    Systolic = col1.number_input('Systolic')
-    Daily_Steps = col1.number_input('Daily Steps')
+    st.image('heart-health.png', width = 350)
 
 with col2:
     Heart_Rate = col2.number_input('Heart Rate')
@@ -45,7 +42,11 @@ with col2:
     Diastolic= col2.number_input('Diastolic')
 
 with col3:
-    st.image('heart-health.png', width = 350)
+    Age = col1.number_input('Age', 18,100)
+    Sleep_Duration = col1.number_input('Sleep Duration (Hours)')
+    Systolic = col1.number_input('Systolic')
+    Daily_Steps = col1.number_input('Daily Steps')
+
 
 st.markdown("<br>",unsafe_allow_html = True)
 st.markdown("<br>",unsafe_allow_html = True)

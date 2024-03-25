@@ -37,7 +37,7 @@ st.dataframe(df, use_container_width = True)
 
 col1,col2,col3 = st.columns(3)
 with col1:
-    Age = st.col1.number_input('Age')
+    Age = st.col1.number_input('Age',18,100)
     Sleep_Duration = st.col1.number_input('Sleep Duration (Hours)')
     Systolic = st.col1.number_input('Systolic')
     Daily_Steps = st.col1.number_input('Daily Steps')
